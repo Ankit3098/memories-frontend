@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/post';
+const url = 'https://memories-ankit-server.herokuapp.com/post';
 
 export const fetchPost = () => axios.get(url);
 
